@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Roboto&display=swap');
+
+
 html {
-    background-image: url(imgs/bg1.jpg);
+    background: url(imgs/bg1.jpg);
     -webkit-background-size: cover;
     background-size: cover;
     -moz-background-size: cover;
@@ -8,5 +11,56 @@ html {
     min-width: 100%;
     min-height: 100%;
 
+
 }
 
+a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Roboto';
+}
+ul {
+  list-style: none;
+  text-align: right;
+  position: relative;
+  margin-right: 45px;
+}
+
+li {
+  display: inline-block;
+  width: fit-content;
+  padding: 5px;
+  margin-top: 0;
+  position: relative;
+}
+
+/*logo in nav/header*/
+h4 {
+  font-size: 30px;
+  color: white;
+  margin-top: auto;
+  margin-left: 5px;
+  font-family: 'Roboto';
+  position: absolute;
+}
+/*container for main heading/description/button*/
+.bold {
+  width: 250px;
+  margin-left: 45px;
+  margin-top: 105px;
+}
+/*main heading*/
+h2 {
+  font-size: 30px;
+  color: white;
+  font-family: 'Open Sans Condensed';
+}
+
+/*description under main heading*/
+p {
+  font-size: 14px;
+  color: white;
+  font-family: 'Roboto';
+  font-weight: lighter;
+
+}
